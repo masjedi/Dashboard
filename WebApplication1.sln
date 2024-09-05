@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "g:", "g:\\", "{8ADD9ADB-D3E3-49E5-A15E-F697757BBD80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{9B538B45-D387-4258-9037-A008582675AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "g:\core\WebApplication1\WebApplication1.csproj", "{B3A9EC22-00A0-4C03-B94F-ABE789CE4D5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "g:", "g:\", "{08B5808E-5660-4EF2-8F81-6958B9592EBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GameStore", "GameStore", "{4C315C7E-028E-48E4-934A-A7346A09A39E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStore.Api", "g:\GameStore\GameStore.Api\GameStore.Api.csproj", "{50681AAA-CFEC-4D29-88B9-304E73489F2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3A9EC22-00A0-4C03-B94F-ABE789CE4D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3A9EC22-00A0-4C03-B94F-ABE789CE4D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3A9EC22-00A0-4C03-B94F-ABE789CE4D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3A9EC22-00A0-4C03-B94F-ABE789CE4D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50681AAA-CFEC-4D29-88B9-304E73489F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50681AAA-CFEC-4D29-88B9-304E73489F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50681AAA-CFEC-4D29-88B9-304E73489F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50681AAA-CFEC-4D29-88B9-304E73489F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B538B45-D387-4258-9037-A008582675AF} = {8ADD9ADB-D3E3-49E5-A15E-F697757BBD80}
+		{B3A9EC22-00A0-4C03-B94F-ABE789CE4D5C} = {9B538B45-D387-4258-9037-A008582675AF}
+		{4C315C7E-028E-48E4-934A-A7346A09A39E} = {08B5808E-5660-4EF2-8F81-6958B9592EBF}
+		{50681AAA-CFEC-4D29-88B9-304E73489F2E} = {4C315C7E-028E-48E4-934A-A7346A09A39E}
+	EndGlobalSection
+EndGlobal
